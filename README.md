@@ -1,1 +1,1 @@
-# SQL_Odev1
+# SQL_Odevleri
