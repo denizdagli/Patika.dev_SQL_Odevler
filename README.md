@@ -1,1 +1,1 @@
-# SQL_Odevleri
+# Patika.dev SQL Derslerinin Ödev Cevapları
