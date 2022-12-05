@@ -11,8 +11,8 @@ SELECT replacement_cost, COUNT(*) AS ADET From film
 GROUP BY replacement_cost
 HAVING (COUNT(*)>50);
 
-SELECT StoreID, COUNT(*) AS ADET From Sales.Customer
-GROUP BY StoreID;
+SELECT store_id, COUNT(*) AS ADET From customer
+GROUP BY store_id;
 
 SELECT country_id, COUNT(*) AS ADET From city
 GROUP BY country_id
