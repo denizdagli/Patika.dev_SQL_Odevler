@@ -4,6 +4,6 @@ customer tablosu ile rental tablosunda bulunan rental_id ile customer tablosunda
 
 SELECT city.name,country.name FROM city LEFT JOIN country ON city.id=country.city_id;
 
-SELECT payment.payment_id, customer.first_name, customer.last_name FROM payment RIGHT JOIN customer ON payment.payment_id=customer.payment.payment_id;
+SELECT payment.payment_id, customer.first_name, customer.last_name FROM payment RIGHT JOIN customer ON payment.payment_id=customer.payment_id;
 
 SELECT customer.first_name,customer.last_name, rental.rental_id  FROM customer FULL JOIN rental ON customer.rental_id=rental.rental_id;
